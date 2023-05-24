@@ -1,0 +1,160 @@
+{
+	"info": {
+		"_postman_id": "768ad187-f0bd-48da-b66b-e93bb76ba6e5",
+		"name": "Journal",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE2ODQ5MzM2NDUsImV4cCI6MTY4NTEwNjQ0NX0.pTMgrHZ6VI5-pF56o0M6uRzVLR6bW6MiogIN5g6zvkcJIPAukYn9JVTaTXctGylGlzdyC_Q2r-QDhIeQeZJHJQ",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"J420\",\r\n  \"groupId\":7,\r\n  \"subjectIds\": [2, 4]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/journal",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"journal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE2ODQ5MzM2NDUsImV4cCI6MTY4NTEwNjQ0NX0.pTMgrHZ6VI5-pF56o0M6uRzVLR6bW6MiogIN5g6zvkcJIPAukYn9JVTaTXctGylGlzdyC_Q2r-QDhIeQeZJHJQ",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/journal/8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"journal",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE2ODQ5MzM2NDUsImV4cCI6MTY4NTEwNjQ0NX0.pTMgrHZ6VI5-pF56o0M6uRzVLR6bW6MiogIN5g6zvkcJIPAukYn9JVTaTXctGylGlzdyC_Q2r-QDhIeQeZJHJQ",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/journal",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"journal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE2ODQ5MzM2NDUsImV4cCI6MTY4NTEwNjQ0NX0.pTMgrHZ6VI5-pF56o0M6uRzVLR6bW6MiogIN5g6zvkcJIPAukYn9JVTaTXctGylGlzdyC_Q2r-QDhIeQeZJHJQ",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"J421\",\r\n  \"groupId\":7,\r\n  \"subjectIds\": [2, 4]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/journal/8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"journal",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE2ODQ5MzM2NDUsImV4cCI6MTY4NTEwNjQ0NX0.pTMgrHZ6VI5-pF56o0M6uRzVLR6bW6MiogIN5g6zvkcJIPAukYn9JVTaTXctGylGlzdyC_Q2r-QDhIeQeZJHJQ",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/journal/8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"journal",
+						"8"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

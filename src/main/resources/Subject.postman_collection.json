@@ -1,0 +1,160 @@
+{
+	"info": {
+		"_postman_id": "f26615be-5e3e-490a-8708-bcefcc7d92fa",
+		"name": "Subject",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE2ODQ5MzM2NDUsImV4cCI6MTY4NTEwNjQ0NX0.pTMgrHZ6VI5-pF56o0M6uRzVLR6bW6MiogIN5g6zvkcJIPAukYn9JVTaTXctGylGlzdyC_Q2r-QDhIeQeZJHJQ",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"IBM\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/subject",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"subject"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE2ODQ5MzM2NDUsImV4cCI6MTY4NTEwNjQ0NX0.pTMgrHZ6VI5-pF56o0M6uRzVLR6bW6MiogIN5g6zvkcJIPAukYn9JVTaTXctGylGlzdyC_Q2r-QDhIeQeZJHJQ",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/subject/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"subject",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE2ODQ5MzM2NDUsImV4cCI6MTY4NTEwNjQ0NX0.pTMgrHZ6VI5-pF56o0M6uRzVLR6bW6MiogIN5g6zvkcJIPAukYn9JVTaTXctGylGlzdyC_Q2r-QDhIeQeZJHJQ",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/subject",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"subject"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE2ODQ5MzM2NDUsImV4cCI6MTY4NTEwNjQ0NX0.pTMgrHZ6VI5-pF56o0M6uRzVLR6bW6MiogIN5g6zvkcJIPAukYn9JVTaTXctGylGlzdyC_Q2r-QDhIeQeZJHJQ",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"I B M\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/subject/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"subject",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE2ODQ5MzM2NDUsImV4cCI6MTY4NTEwNjQ0NX0.pTMgrHZ6VI5-pF56o0M6uRzVLR6bW6MiogIN5g6zvkcJIPAukYn9JVTaTXctGylGlzdyC_Q2r-QDhIeQeZJHJQ",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/subject/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"subject",
+						"6"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

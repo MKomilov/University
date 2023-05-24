@@ -1,0 +1,133 @@
+{
+	"info": {
+		"_postman_id": "97a4f201-2c59-4e35-8b33-4c081a00dab2",
+		"name": "Mark",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE2ODQ5MzM2NDUsImV4cCI6MTY4NTEwNjQ0NX0.pTMgrHZ6VI5-pF56o0M6uRzVLR6bW6MiogIN5g6zvkcJIPAukYn9JVTaTXctGylGlzdyC_Q2r-QDhIeQeZJHJQ",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"label\": 80,\r\n  \"studentId\": \"e0e0f41a-7882-4979-98ed-ea03e36f9213\",\r\n  \"journalId\": 2,\r\n  \"subjectId\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/mark",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"mark"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE2ODQ5MzM2NDUsImV4cCI6MTY4NTEwNjQ0NX0.pTMgrHZ6VI5-pF56o0M6uRzVLR6bW6MiogIN5g6zvkcJIPAukYn9JVTaTXctGylGlzdyC_Q2r-QDhIeQeZJHJQ",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/mark/11",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"mark",
+						"11"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE2ODQ5MzM2NDUsImV4cCI6MTY4NTEwNjQ0NX0.pTMgrHZ6VI5-pF56o0M6uRzVLR6bW6MiogIN5g6zvkcJIPAukYn9JVTaTXctGylGlzdyC_Q2r-QDhIeQeZJHJQ",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/mark",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"mark"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE2ODQ5MzM2NDUsImV4cCI6MTY4NTEwNjQ0NX0.pTMgrHZ6VI5-pF56o0M6uRzVLR6bW6MiogIN5g6zvkcJIPAukYn9JVTaTXctGylGlzdyC_Q2r-QDhIeQeZJHJQ",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"label\": 85,\r\n  \"studentId\": \"e0e0f41a-7882-4979-98ed-ea03e36f9213\",\r\n  \"journalId\": 2,\r\n  \"subjectId\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/mark/11",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"mark",
+						"11"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

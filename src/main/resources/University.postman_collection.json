@@ -1,0 +1,160 @@
+{
+	"info": {
+		"_postman_id": "33b01ddb-9a2c-4740-8fe8-df87ba6a75d4",
+		"name": "University",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE2ODQ5MzM2NDUsImV4cCI6MTY4NTEwNjQ0NX0.pTMgrHZ6VI5-pF56o0M6uRzVLR6bW6MiogIN5g6zvkcJIPAukYn9JVTaTXctGylGlzdyC_Q2r-QDhIeQeZJHJQ",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"MDIST\",\r\n  \"address\": \"Tashkent\",\r\n  \"openYear\": 2005\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/university",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"university"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get University by id",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE2ODQ5MzM2NDUsImV4cCI6MTY4NTEwNjQ0NX0.pTMgrHZ6VI5-pF56o0M6uRzVLR6bW6MiogIN5g6zvkcJIPAukYn9JVTaTXctGylGlzdyC_Q2r-QDhIeQeZJHJQ",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/university/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"university",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Universities",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE2ODQ5MzM2NDUsImV4cCI6MTY4NTEwNjQ0NX0.pTMgrHZ6VI5-pF56o0M6uRzVLR6bW6MiogIN5g6zvkcJIPAukYn9JVTaTXctGylGlzdyC_Q2r-QDhIeQeZJHJQ",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/university",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"university"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE2ODQ5MzM2NDUsImV4cCI6MTY4NTEwNjQ0NX0.pTMgrHZ6VI5-pF56o0M6uRzVLR6bW6MiogIN5g6zvkcJIPAukYn9JVTaTXctGylGlzdyC_Q2r-QDhIeQeZJHJQ",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"MDIS in Tashkent\",\r\n  \"address\": \"Tashkent\",\r\n  \"openYear\": 2005\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/university/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"university",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE2ODQ5MzM2NDUsImV4cCI6MTY4NTEwNjQ0NX0.pTMgrHZ6VI5-pF56o0M6uRzVLR6bW6MiogIN5g6zvkcJIPAukYn9JVTaTXctGylGlzdyC_Q2r-QDhIeQeZJHJQ",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/university/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"university",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

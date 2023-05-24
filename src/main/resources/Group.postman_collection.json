@@ -1,0 +1,160 @@
+{
+	"info": {
+		"_postman_id": "d1db40ce-acc3-4255-a248-31b24390eb3f",
+		"name": "Group",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE2ODQ5MzM2NDUsImV4cCI6MTY4NTEwNjQ0NX0.pTMgrHZ6VI5-pF56o0M6uRzVLR6bW6MiogIN5g6zvkcJIPAukYn9JVTaTXctGylGlzdyC_Q2r-QDhIeQeZJHJQ",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"G421\",\r\n  \"year\": 2018,\r\n  \"facultyId\": 6\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/group",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"group"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE2ODQ5MzM2NDUsImV4cCI6MTY4NTEwNjQ0NX0.pTMgrHZ6VI5-pF56o0M6uRzVLR6bW6MiogIN5g6zvkcJIPAukYn9JVTaTXctGylGlzdyC_Q2r-QDhIeQeZJHJQ",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/group/9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"group",
+						"9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE2ODQ5MzM2NDUsImV4cCI6MTY4NTEwNjQ0NX0.pTMgrHZ6VI5-pF56o0M6uRzVLR6bW6MiogIN5g6zvkcJIPAukYn9JVTaTXctGylGlzdyC_Q2r-QDhIeQeZJHJQ",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/group",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"group"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE2ODQ5MzM2NDUsImV4cCI6MTY4NTEwNjQ0NX0.pTMgrHZ6VI5-pF56o0M6uRzVLR6bW6MiogIN5g6zvkcJIPAukYn9JVTaTXctGylGlzdyC_Q2r-QDhIeQeZJHJQ",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"G420\",\r\n  \"year\": 2019,\r\n  \"facultyId\": 4\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/group/9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"group",
+						"9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE2ODQ5MzM2NDUsImV4cCI6MTY4NTEwNjQ0NX0.pTMgrHZ6VI5-pF56o0M6uRzVLR6bW6MiogIN5g6zvkcJIPAukYn9JVTaTXctGylGlzdyC_Q2r-QDhIeQeZJHJQ",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/group/9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"group",
+						"9"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
